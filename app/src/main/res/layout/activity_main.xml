@@ -1,0 +1,258 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    tools:context=".ui.main.MainActivity">
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/img_profile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_your_interest"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Search Component -->
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Write here"
+        android:padding="16dp"
+        android:background="@drawable/tag_background"
+        app:layout_constraintTop_toBottomOf="@id/tv_header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Flexbox Layout for Tags -->
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexbox_tags"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/et_search"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        app:flexWrap="wrap"
+        app:justifyContent="space_between">
+        <!-- Sample Tags -->
+        <TextView
+            android:id="@+id/tv_business"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:text="@string/business"
+            android:layout_margin="8dp"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_project_management"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/project_management"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_programming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/programming"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_computer_science"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/computer_science"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_data_analysis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/data_analysis"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_data_science"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/data_science"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_leadership"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/leadership"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/language"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_life_science"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/life_science"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_engineering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/engineering"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_coding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/coding"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_machine_learning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/machine_learning"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_modeling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/modeling"
+            android:textColor="@color/blue" />
+        <TextView
+            android:id="@+id/tv_mathematics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/mathematics"
+            android:textColor="@color/blue" />
+        <TextView
+            android:id="@+id/tv_data_security"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/data_security"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_software_development"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/software_development"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_statistics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/statistics"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/tv_python"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_background"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:text="@string/python"
+            android:textColor="@color/blue" />
+
+
+        <!-- Add more tags as needed -->
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="@color/primaryColor"
+        android:text="@string/submit"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
