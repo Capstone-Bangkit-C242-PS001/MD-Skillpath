@@ -16,10 +16,7 @@ Skillpath is a course recommendation system that uses skill set preferences to p
 
 ## Integration Method
 
-## Developer - C242PS001
-## Huroofy Team
-## Tim Pengembang
-
+## Developer Tean - C242PS001
 | Name                    | Role               | LinkedIn Link                             |
 |-------------------------|--------------------|-------------------------------------------|
 | Matthew Mahendra        | Machine Learning   |      |
