@@ -1,20 +1,34 @@
 ### Skillpath: Course Recommender System using Skill Set Preferences
-##About
+## About
 Skillpath is a course recommendation system that uses skill set preferences to provide course suggestions that align with the user's needs and goals. This system is designed to help users quickly and accurately choose courses based on the skills they wish to develop or enhance
 
-##Presentation
+## Presentation
 
-##Demo Video
+## Demo Video
 
-##Mock Up
+## Mock Up
 
-##API Documentation
+## API Documentation
 
-##App Features
+## App Features
 
-##Technology
+## Technology
 
-##Integration Method
+## Integration Method
+
+## Developer - C242PS001
+## Huroofy Team
+## Tim Pengembang
+
+| Name                    | Role               | LinkedIn Link                             |
+|-------------------------|--------------------|-------------------------------------------|
+| Matthew Mahendra        | Machine Learning   |      |
+| Ferry Kurniawan         | Machine Learning   |  |
+| Marvina Young           | Machine Learning   |     |
+| Jeffrey Chow            | Cloud Computing    |       |
+| Wilson Tansil           | Cloud Computing    | [https://github.com/elmiwahyu](https://github.com/elmiwahyu)      |
+| Elmi Wahyu Triyani      | Mobile Development |    |
+| Kensa Baerend Deftnamor | Mobile Development |     |
 
 
 
