@@ -24,7 +24,7 @@ Skillpath is a course recommendation system that uses skill set preferences to p
 | Marvina Young           | Machine Learning   |     |
 | Jeffrey Chow            | Cloud Computing    |       |
 | Wilson Tansil           | Cloud Computing    |    |
-| Elmi Wahyu Triyani      | Mobile Development |  [https://github.com/elmiwahyu](https://github.com/elmiwahyu)  |
+| Elmi Wahyu Triyani      | Mobile Development |  [https://www.linkedin.com/in/elmiwahyu/](https://www.linkedin.com/in/elmiwahyu/)  |
 | Kensa Baerend Deftnamor | Mobile Development |     |
 
 
