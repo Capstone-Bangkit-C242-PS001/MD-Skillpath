@@ -1,0 +1,13 @@
+<!-- res/drawable/background_box.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Color -->
+    <solid android:color="@color/white"/> <!-- Ganti dengan warna yang diinginkan -->
+
+    <!-- Border (optional) -->
+    <stroke
+        android:width="2dp"
+        android:color="#AFAFAF"/> <!-- Ganti dengan warna border yang diinginkan -->
+
+    <!-- Corner Radius (optional) -->
+    <corners android:radius="8dp"/> <!-- Ubah untuk mengatur lengkungan sudut -->
+</shape>
