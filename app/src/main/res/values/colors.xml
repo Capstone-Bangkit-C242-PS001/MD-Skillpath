@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#333333</color>
+    <color name="blacktwo">#525252</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#0094FF</color>
+    <color name="outlinecolor">#333333</color>
+    <color name="tagColor">#d8e4ff</color>
+    <color name="link_color">#1E88E5</color>
+    <color name="red_color">#C62E2E</color>
+    <color name="yellow_color">#ffde21</color>
+    <color name="light_gray">#D3D3D3</color>
+
+    <color name="blue">#1b9bff</color>
+    <color name="gray_light">#F5F5F5</color>
+</resources>

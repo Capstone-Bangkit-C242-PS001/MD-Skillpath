@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg_signin"
+    tools:context=".ui.login.LoginActivity">
+
+    <!-- Illustration Image (Placeholder for now) -->
+    <ImageView
+        android:id="@+id/iv_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:contentDescription="@string/illustration"
+        android:src="@drawable/vektor_larrysignin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Sign In Title -->
+    <TextView
+        android:id="@+id/tv_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        app:layout_constraintTop_toBottomOf="@id/iv_signin"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/black"/>
+
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/et_emailsignin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@id/tv_signin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/blacktwo"/>
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/et_passwordsignin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@id/et_emailsignin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/blacktwo"/>
+
+    <!-- Forgot Password Link -->
+    <TextView
+        android:id="@+id/tv_forgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:textColor="@color/link_color"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/et_passwordsignin"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Sign In Button -->
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/tv_forgotpassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Divider with "Or continue with" Text -->
+    <TextView
+        android:id="@+id/tv_orcontinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or_continue_with"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@id/btn_signin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Google Sign In Button -->
+    <ImageView
+        android:id="@+id/btn_googlesignin"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/vektor_google"
+        android:contentDescription="@string/google_signin"
+        app:layout_constraintTop_toBottomOf="@id/tv_orcontinue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Sign Up Link -->
+    <TextView
+        android:id="@+id/tv_dont_have_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dont_have_an_account_Sign_up"
+        android:textSize="14sp"
+        android:textColor="@color/link_color"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintTop_toBottomOf="@id/btn_googlesignin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
