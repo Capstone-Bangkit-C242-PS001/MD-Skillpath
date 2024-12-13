@@ -42,8 +42,8 @@ https://backend-service-282390196070.asia-southeast1.run.app/swagger/index.html
 - **Programming Language**: Kotlin
 - **Networking Library**: Retrofit
 
-####  Backend
-####  Machine Learning
+####  Backend :
+####  Machine Learning : 
 
 
 
@@ -55,6 +55,18 @@ https://github.com/Capstone-Bangkit-C242-PS001/MD-Skillpath.git
 2. Open the project in **Android Studio**
 3. Install dependencies by syncing Gradle
 4. Run the app on an emulator or a connected device
+
+
+## Developer Team - C242PS001
+| Name                    | Role               | LinkedIn Link                             |
+|-------------------------|--------------------|-------------------------------------------|
+| Matthew Mahendra        | Machine Learning   |      |
+| Ferry Kurniawan         | Machine Learning   |  |
+| Marvina Young           | Machine Learning   |     |
+| Jeffrey Chow            | Cloud Computing    |       |
+| Wilson Tansil           | Cloud Computing    |    |
+| Elmi Wahyu Triyani      | Mobile Development |  [https://www.linkedin.com/in/elmiwahyu/](https://www.linkedin.com/in/elmiwahyu/)  |
+| Kensa Baerend Deftnamor | Mobile Development |     |
 
 
 
