@@ -42,9 +42,6 @@ https://backend-service-282390196070.asia-southeast1.run.app/swagger/index.html
 - **Programming Language**: Kotlin
 - **Networking Library**: Retrofit
 
-####  Backend :
-####  Machine Learning : 
-
 
 
 ## Setup Instructions
