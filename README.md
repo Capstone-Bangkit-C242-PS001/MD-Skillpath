@@ -41,7 +41,10 @@ https://backend-service-282390196070.asia-southeast1.run.app/swagger/index.html
 - **IDE**: Android Studio
 - **Programming Language**: Kotlin
 - **Networking Library**: Retrofit
-
+#### Backend Service
+https://github.com/Capstone-Bangkit-C242-PS001/Backend-Service
+#### ML Development
+https://github.com/Capstone-Bangkit-C242-PS001/ML-Development
 
 
 ## Setup Instructions
@@ -58,12 +61,12 @@ https://github.com/Capstone-Bangkit-C242-PS001/MD-Skillpath.git
 | Name                    | Role               | LinkedIn Link                             |
 |-------------------------|--------------------|-------------------------------------------|
 | Matthew Mahendra        | Machine Learning   |  https://www.linkedin.com/in/matthew-mahendra-117845214/ |
-| Ferry Kurniawan         | Machine Learning   |  |
-| Marvina Young           | Machine Learning   |     |
+| Ferry Kurniawan         | Machine Learning   |  https://www.linkedin.com/in/fery-kurniawan/ |
+| Marvina Young           | Machine Learning   |  |
 | Jeffrey Chow            | Cloud Computing    |  https://www.linkedin.com/in/jeffreychoww/ |
 | Wilson Tansil           | Cloud Computing    |    |
 | Elmi Wahyu Triyani      | Mobile Development | https://www.linkedin.com/in/elmiwahyu/  |
-| Kensa Baerend Deftnamor | Mobile Development |     |
+| Kensa Baerend Deftnamor | Mobile Development | https://www.linkedin.com/in/kensa-baeren-deftnamor-931751233/|
 
 
 
