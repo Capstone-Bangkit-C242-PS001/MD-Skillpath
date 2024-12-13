@@ -64,9 +64,9 @@ https://github.com/Capstone-Bangkit-C242-PS001/MD-Skillpath.git
 |-------------------------|--------------------|-------------------------------------------|
 | Matthew Mahendra        | Machine Learning   |  https://www.linkedin.com/in/matthew-mahendra-117845214/ |
 | Ferry Kurniawan         | Machine Learning   |  https://www.linkedin.com/in/fery-kurniawan/ |
-| Marvina Young           | Machine Learning   |  |
+| Marvina Young           | Machine Learning   |  https://www.linkedin.com/in/marvina-young/ |
 | Jeffrey Chow            | Cloud Computing    |  https://www.linkedin.com/in/jeffreychoww/ |
-| Wilson Tansil           | Cloud Computing    |    |
+| Wilson Tansil           | Cloud Computing    |  https://www.linkedin.com/in/wilson-tansil/|
 | Elmi Wahyu Triyani      | Mobile Development | https://www.linkedin.com/in/elmiwahyu/  |
 | Kensa Baerend Deftnamor | Mobile Development | https://www.linkedin.com/in/kensa-baeren-deftnamor-931751233/|
 
